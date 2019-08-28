@@ -12,7 +12,7 @@ def home():
 
 @app.route('/name')
 def name():
-    return '박경희'
+    return '홍길동'
 
 #variable
 @app.route('/hello/<name>')
